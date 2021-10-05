@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+body{
+	color: white;
+	font-size: 50px;
+	background-color: grey; 
+	font-family:monospace;
+	font-size: 16px;
+	line-height: 1.6m;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header{
+	background-color: black;
+	color: white;
+}
+
+#navbar{
+	background-color: grey;
+	color: white;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar li a{
+	transition: all 0.3s ease 0s;
+}
+
+#navbar li a:hover {
+	color: black;
+}
+
+#showcase{
+	background-image: url('images/showcase.jpg');
+	background-position: center center;
+	min-height: 300px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-family: 'Bonheur Royale', cursive;
+	font-size: 20px;
+}
+
+#showcase h1{
+	color: black;
+	font: fantasy;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+#main{
+	float: left;
+	width: 70%;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar{
+	float: right;
+	width: 30%;
+	background: darkgrey;
+	color: white;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-footer{
+	background: black;
+	color: whitesmoke;
+	text-align: center;
+	padding: 20px;
+	margin-top: 100px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+			width: 100%;
+			float: none;
+		}
+}
