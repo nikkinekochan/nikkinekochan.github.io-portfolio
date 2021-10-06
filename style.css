@@ -1,0 +1,39 @@
+body{
+	color: white;
+	font-size: 50px;
+	background-color: grey; 
+	font-family:monospace;
+	font-size: 16px;
+	line-height: 1.6m;
+	margin: 100;
+	padding-left: 20px;
+}
+
+#navbar{
+	background-color: grey;
+	color: white;
+}
+
+#navbar ul{
+	padding: 0;
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+
+#navbar li a{
+	transition: all 0.3s ease 0s;
+}
+
+#navbar li a:hover {
+	color: black;
+	background-color: whitesmoke;
